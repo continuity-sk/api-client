@@ -1,0 +1,31 @@
+{
+    "name": "continuity/api-client",
+    "description": "PHP Api Client",
+    "homepage": "https://github.com/continuity-sk/api-client",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Michal Drobny",
+        "email": "michal.drobny@continuity.sk",
+        "homepage": "https://continuity.sk",
+        "role": "Developer"
+      },
+      {
+        "name": "Miroslav Hudak",
+        "email": "miroslav.hudak@continuity.sk",
+        "homepage": "https://continuity.sk",
+        "role": "Developer"
+      }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "php" : "^7.1",
+      "guzzlehttp/guzzle": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Continuity\\ApiClient\\": "src"
+      }
+    }
+}
